@@ -61,10 +61,10 @@
 
         Mouse {
             bindings = <
-&trans     &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&mkp MCLK  &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &mkp LCLK
-                           &mkp LCLK  &trans  &mkp RCLK    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans     &mkp MCLK &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans       &trans  &mkp LCLK  &mkp RCLK &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans     &trans    &trans  &trans  &trans
+                        &trans  &trans  &trans       &trans  &trans
             >;
         };
     };
