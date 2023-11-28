@@ -62,16 +62,16 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &mkp MCLK  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans
             >;
         };
 
-        layer_4 {
+        Scroll {
             bindings = <
-&trans  &trans      &trans      &trans      &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &bt BT_CLR  &bt BT_PRV  &bt BT_PRV  &trans  &bootloader    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans      &trans      &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans      &trans      &trans  &trans         &trans  &trans     &mkp MCLK  &trans  &trans  &trans
+&trans  &bt BT_CLR  &bt BT_PRV  &bt BT_PRV  &trans  &bootloader    &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+&trans  &trans      &trans      &trans      &trans  &trans         &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
                                 &trans      &trans  &trans         &trans  &trans
             >;
         };
