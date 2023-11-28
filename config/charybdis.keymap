@@ -75,7 +75,7 @@
                             &trans  &trans  &trans         &trans  &trans
             >;
 
-            trackball-bindings = <&tsl>;
+            trackball-bindings = <&tsl_fine>;
         };
     };
 };
