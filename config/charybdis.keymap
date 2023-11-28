@@ -35,7 +35,7 @@
                                           &kp SPACE        &mo 1              &kp TAB    &kp ENTER  &mo 2
             >;
 
-            trackball-bindings = <&tmv_coarse>;
+            trackball-bindings = <&tmv>;
         };
 
         Lower {
@@ -65,6 +65,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans
             >;
+            trackball-bindings = <&tmv>;
         };
 
         Scroll {
@@ -74,6 +75,7 @@
 &trans  &bt BT_CLR  &trans  &trans  &trans  &trans         &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
                             &trans  &trans  &trans         &trans  &trans
             >;
+            trackball-bindings = <&tsl>;
         };
     };
 };
