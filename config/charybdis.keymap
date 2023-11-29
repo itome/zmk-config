@@ -29,6 +29,7 @@
             compatible = "zmk,behavior-none";
             label = "NONE";
             #binding-cells = <0>;
+            #trackball-binding-cells = <0>;
         };
     };
 
