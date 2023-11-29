@@ -24,7 +24,8 @@
     };
 
     /* disable behavior */
-	behaviors {
+
+    behaviors {
         dis: disable {
             compatible = "zmk,behavior-none";
             label = "NONE";
@@ -34,7 +35,8 @@
     };
 
     /* trackball scroll */
-	behaviors {
+
+    behaviors {
         trs: trackball_scroll {
             compatible = "zmk,behavior-point-device-incremental";
             label = "TRACKBALL_SCROLL";
@@ -55,7 +57,7 @@
             bindings = <
 &kp TAB    &kp Q         &kp W            &kp E            &kp R              &kp T      &kp Y      &kp U               &kp I             &kp O             &kp P                 &kp BSPC
 &kp ESC    &bhm LCTRL A  &bhm LEFT_ALT S  &bhm LEFT_GUI D  &bhm LEFT_SHIFT F  &kp G      &kp H      &bhm RIGHT_SHIFT J  &bhm RIGHT_GUI K  &bhm RIGHT_ALT L  &bhm RCTRL SEMICOLON  &kp APOS
-&kp LSHFT  &kp Z         &kp X            &kp C            &kp V              &kp B      &kp N      &kp M               &kp COMMA         &kp PERIOD        &kp SLASH             &mo 3
+&kp LSHFT  &kp Z         &kp X            &kp C            &kp V              &kp B      &kp N      &kp M               &kp COMMA         &kp PERIOD        &kp SLASH             &to 3
                                           &kp SPACE        &mo 1              &kp TAB    &kp ENTER  &mo 2
             >;
 
@@ -88,10 +90,10 @@
 
         Mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &mkp MCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &trans  &mo 4   &trans
-                        &trans  &trans  &trans    &trans  &trans
+&none  &none  &none  &none  &none  &none    &none  &none      &none      &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none      &mkp MCLK  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &mkp LCLK  &mkp RCLK  &none  &mo 4  &to 0
+                     &none  &none  &none    &none  &to 0
             >;
 
             trackball-bindings = <&tmv_coarse>;
@@ -99,10 +101,10 @@
 
         Scroll {
             bindings = <
-&trans  &trans      &trans  &trans  &trans  &trans         &trans  &trans     &mkp MCLK  &trans  &trans  &trans
-&trans  &trans      &trans  &trans  &trans  &bootloader    &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &bt BT_CLR  &trans  &trans  &trans  &trans         &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-                            &trans  &trans  &trans         &trans  &trans
+&none  &none       &none  &none  &none  &none          &none  &none      &none      &none  &none  &none
+&none  &none       &none  &none  &none  &bootloader    &none  &none      &none      &none  &none  &none
+&none  &bt BT_CLR  &none  &none  &none  &none          &none  &mkp LCLK  &mkp RCLK  &none  &none  &to 0
+                          &none  &none  &none          &none  &to 0
             >;
 
             trackball-bindings = <&trs>;
