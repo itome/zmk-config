@@ -57,7 +57,7 @@
             bindings = <
 &kp TAB    &kp Q         &kp W            &kp E            &kp R              &kp T      &kp Y      &kp U               &kp I             &kp O             &kp P                 &kp BSPC
 &kp ESC    &bhm LCTRL A  &bhm LEFT_ALT S  &bhm LEFT_GUI D  &bhm LEFT_SHIFT F  &kp G      &kp H      &bhm RIGHT_SHIFT J  &bhm RIGHT_GUI K  &bhm RIGHT_ALT L  &bhm RCTRL SEMICOLON  &kp APOS
-&kp LSHFT  &kp Z         &kp X            &kp C            &kp V              &kp B      &kp N      &kp M               &kp COMMA         &kp PERIOD        &kp SLASH             &to 4
+&kp LSHFT  &kp Z         &kp X            &kp C            &kp V              &kp B      &kp N      &kp M               &kp COMMA         &kp PERIOD        &kp SLASH             &to 3
                                           &kp SPACE        &mo 1              &kp TAB    &kp ENTER  &mo 2
             >;
 
@@ -92,7 +92,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &mkp MCLK  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &trans  &mo 4   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &trans  &mo 4   &to 0
                         &trans  &trans  &trans    &trans  &to 0
             >;
 
