@@ -32,7 +32,7 @@
             #trackball-binding-cells = <0>;
             mode = "scroll-mode";
             flavor = "default";
-            scale_mode = "multiplier";
+            scale_mode = "dividor";
             scale_factor = <5>;
             smoothing;
         };
