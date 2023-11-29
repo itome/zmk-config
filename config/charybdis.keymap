@@ -23,6 +23,21 @@
         };
     };
 
+
+    /* trackball scroll */
+	behaviors {
+        trs: trackball_scroll {
+            compatible = "zmk,behavior-point-device-incremental";
+            label = "TRACKBALL_SCROLL";
+            trackball-binding-cells = <0>;
+            mode = "scroll-mode";
+            flavor = "default";
+            scale_mode = "dividor";
+            scale_factor = <20>;
+            smoothing;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -75,7 +90,7 @@
                             &trans  &trans  &trans         &trans  &trans
             >;
 
-            trackball-bindings = <&tsl_fine>;
+            trackball-bindings = <&trs>;
         };
     };
 };
