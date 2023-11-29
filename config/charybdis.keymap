@@ -29,7 +29,6 @@
         trs: trackball_scroll {
             compatible = "zmk,behavior-point-device-incremental";
             label = "TRACKBALL_SCROLL";
-            trackball-binding-cells = <0>;
             mode = "scroll-mode";
             flavor = "default";
             scale_mode = "dividor";
