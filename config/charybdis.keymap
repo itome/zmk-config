@@ -34,6 +34,18 @@
         };
     };
 
+    behaviors {
+        tsl_y: behavior_trackball_scroll_y_only {
+            compatible = "zmk,behavior-point-device-incremental";
+            label = "TRACKBALL_SCROLL_Y_ONLY";
+            #trackball-binding-cells = <0>;
+            mode = "scroll-mode";
+            flavor = "y-only";
+            scale_mode = "dividor";
+            scale_factor = <1>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -81,7 +93,7 @@
                           &none  &none  &none          &none  &none
             >;
 
-            trackball-bindings = <&tsl_fine>;
+            trackball-bindings = <&tsl_y>;
         };
     };
 };
