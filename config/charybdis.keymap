@@ -52,10 +52,10 @@
         Lower {
             label = "Lower";
             bindings = <
-&none  &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none    &none     &none      &none      &none      &none  &none
-&none  &none         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none  &none
-&none  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none    &none     &mkp LCLK  &mkp RCLK  &mkp MCLK  &mo 3  &none
-                                   &none         &none         &none    &none     &none
+&none  &none         &kp NUMBER_7            &kp NUMBER_8            &kp NUMBER_9              &none    &none     &none      &none      &none      &none  &none
+&none  &kp LCTRL     &bhm LEFT_ALT NUMBER_4  &bhm LEFT_GUI NUMBER_5  &bhm LEFT_SHIFT NUMBER_6  &none    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none  &none
+&none  &kp NUMBER_0  &kp NUMBER_1            &kp NUMBER_2            &kp NUMBER_3              &none    &none     &mkp LCLK  &mkp RCLK  &mkp MCLK  &mo 3  &none
+                                             &none                   &none                     &none    &none     &none
             >;
 
             trackball-bindings = <&tmv_coarse>;
