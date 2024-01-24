@@ -41,10 +41,10 @@
         Lower {
             label = "Lower";
             bindings = <
-&none  &none         &kp NUMBER_7            &kp NUMBER_8            &kp NUMBER_9              &none    &none     &none      &none      &none      &none  &none
-&none  &kp LCTRL     &bhm LEFT_ALT NUMBER_4  &bhm LEFT_GUI NUMBER_5  &bhm LEFT_SHIFT NUMBER_6  &none    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none  &none
-&none  &kp NUMBER_0  &kp NUMBER_1            &kp NUMBER_2            &kp NUMBER_3              &none    &none     &mkp LCLK  &mkp RCLK  &mkp MCLK  &mo 3  &none
-                                             &none                   &none                     &none    &none     &none
+&none  &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none    &none     &none     &none   &none      &none  &none
+&none  &none         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none
+&none  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none    &none     &none     &none   &none      &mo 4  &none
+                                   &none         &none         &none    &none     &none
             >;
         };
 
@@ -55,6 +55,15 @@
 &none  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &none        &kp MINUS  &kp EQUAL  &kp LBKT      &kp RBKT  &kp BSLH  &kp GRAVE
 &none  &none      &none         &none         &none           &none        &kp UNDER  &kp PLUS   &kp LBRC      &kp RBRC  &kp PIPE  &kp TILDE
                                 &none         &none           &none        &none      &none
+            >;
+        };
+
+        Mouse {
+            bindings = <
+&trans  &trans            &trans        &trans        &trans          &trans    &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans    &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans            &trans        &trans        &trans          &trans    &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
+                                        &trans        &trans          &trans    &trans  &trans
             >;
         };
 
