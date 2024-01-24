@@ -23,29 +23,6 @@
         };
     };
 
-    /* disable behavior */
-
-    behaviors {
-        dis: disable {
-            compatible = "zmk,behavior-none";
-            label = "NONE";
-            #binding-cells = <0>;
-            #trackball-binding-cells = <0>;
-        };
-    };
-
-    behaviors {
-        tsl_y: behavior_trackball_scroll_y_only {
-            compatible = "zmk,behavior-point-device-incremental";
-            label = "TRACKBALL_SCROLL_Y_ONLY";
-            #trackball-binding-cells = <0>;
-            mode = "scroll-mode";
-            flavor = "y-only";
-            scale_mode = "dividor";
-            scale_factor = <8>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -58,7 +35,7 @@
                                                   &kp SPACE        &mo 1              &kp TAB    &kp ENTER  &mo 2
             >;
 
-            trackball-bindings = <&dis>;
+            trackball-bindings = <&tmv_coarse>;
         };
 
         Lower {
@@ -69,8 +46,6 @@
 &none  &kp NUMBER_0  &kp NUMBER_1            &kp NUMBER_2            &kp NUMBER_3              &none    &none     &mkp LCLK  &mkp RCLK  &mkp MCLK  &mo 3  &none
                                              &none                   &none                     &none    &none     &none
             >;
-
-            trackball-bindings = <&tmv_coarse>;
         };
 
         Raise {
@@ -81,8 +56,6 @@
 &none  &none      &none         &none         &none           &none        &kp UNDER  &kp PLUS   &kp LBRC      &kp RBRC  &kp PIPE  &kp TILDE
                                 &none         &none           &none        &none      &none
             >;
-
-            trackball-bindings = <&dis>;
         };
 
         Scroll {
@@ -92,8 +65,6 @@
 &bootloader  &none      &none         &none         &none           &none    &none  &mkp LCLK  &mkp RCLK  &mkp MCLK  &none  &none
                                       &none         &none           &none    &none  &none
             >;
-
-            trackball-bindings = <&tsl_y>;
         };
     };
 };
