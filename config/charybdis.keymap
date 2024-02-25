@@ -47,7 +47,7 @@
                                    &none         &none         &none    &none     &none
             >;
 
-            trackball-bindings = <&tsl>;
+            trackball-bindings = <&tsl_fine>;
         };
 
         Raise {
@@ -76,7 +76,7 @@
 &bootloader  &none      &none         &none         &none           &none    &none  &mkp LCLK  &mkp RCLK  &mkp MCLK  &none  &none
                                       &none         &none           &none    &none  &none
             >;
-            trackball-bindings = <&tsl>;
+            trackball-bindings = <&tsl_fine>;
         };
     };
 };
