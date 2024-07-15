@@ -34,7 +34,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: Pointer}
+  - {t: /, h: Scroll}
   - {t: ▽, type: trans}
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:keyboard-space$$', h: NuFu}
@@ -134,7 +134,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:keyboard-tab$$
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:backspace-reverse-outline$$
   - {t: ▽, type: trans}
@@ -277,16 +277,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
