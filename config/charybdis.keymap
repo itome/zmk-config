@@ -77,7 +77,7 @@
             bindings = <
 &trans  &kp Q         &kp W        &kp E        &kp R         &kp T        &kp Y      &kp U          &kp I        &kp O        &kp P                 &trans
 &trans  &hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G        &kp H      &hmr RSHFT J   &hmr RGUI K  &hmr RALT L  &hmr RCTRL SEMICOLON  &trans
-&trans  &lt POI Z     &kp X        &kp C        &kp V         &kp B        &kp N      &kp M          &kp COMMA    &kp DOT      &lt 6 SLASH           &trans
+&trans  &lt POI Z     &kp X        &kp C        &kp V         &kp B        &kp N      &kp M          &lt 5 COMMA  &kp DOT      &lt 6 SLASH           &trans
                                    &kp ESC      &lt 1 SPACE   &lt 3 TAB    &kp ENTER  &lt SYM SPACE
             >;
         };
@@ -125,10 +125,10 @@
         Pointer {
             label = "Pointer";
             bindings = <
-&trans  &trans     &trans    &trans     &trans     &trans       &trans     &trans     &trans     &trans    &trans     &trans
-&trans  &kp LCTRL  &kp LALT  &kp LGUI   &kp LSHFT  &trans       &trans     &kp RSHFT  &kp RGUI   &kp RALT  &kp RCTRL  &trans
-&trans  &trans     &mo SCR   &mo SNI    &trans     &trans       &trans     &mkp LCLK  &mkp RCLK  &mo SCR   &trans     &trans
-                             &mkp RCLK  &mkp LCLK  &mkp MCLK    &mkp MCLK  &mkp LCLK
+&trans  &trans     &trans    &trans     &trans     &trans       &trans  &trans     &trans    &trans     &trans     &trans
+&trans  &kp LCTRL  &kp LALT  &kp LGUI   &kp LSHFT  &trans       &trans  &kp RSHFT  &kp RGUI  &kp RALT   &kp RCTRL  &trans
+&trans  &trans     &mo SCR   &mo SNI    &trans     &trans       &trans  &mkp LCLK  &trans    &mkp RCLK  &trans     &trans
+                             &mkp RCLK  &mkp LCLK  &mkp MCLK    &trans  &trans
             >;
         };
 
