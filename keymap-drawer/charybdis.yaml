@@ -354,3 +354,7 @@ combos:
 - p: [26, 27]
   k: '&mkp MCLK'
   l: [Base]
+- p: [31, 32]
+  k: '&mkp LCLK'
+- p: [32, 33]
+  k: '&mkp RCLK'
