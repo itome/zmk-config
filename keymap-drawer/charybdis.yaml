@@ -336,6 +336,48 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  GAME:
+  - '1'
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: ▽, type: trans}
+  - '2'
+  - $$mdi:apple-keyboard-control$$
+  - A
+  - S
+  - D
+  - F
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '3'
+  - $$mdi:apple-keyboard-shift$$
+  - Y
+  - X
+  - C
+  - V
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-space$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:keyboard-space$$
 combos:
 - p: [31, 32]
   k: '&mkp LCLK'
@@ -343,3 +385,5 @@ combos:
 - p: [32, 33]
   k: '&mkp RCLK'
   l: [Base]
+- p: [0, 11]
+  k: {t: GAME, h: toggle}
