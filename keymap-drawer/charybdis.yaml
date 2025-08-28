@@ -337,7 +337,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   GAME:
-  - '1'
+  - ESCAPE
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -349,7 +349,7 @@ layers:
   - O
   - P
   - {t: ▽, type: trans}
-  - '2'
+  - '1'
   - $$mdi:apple-keyboard-control$$
   - A
   - S
@@ -361,7 +361,7 @@ layers:
   - L
   - ;
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '3'
+  - '2'
   - $$mdi:apple-keyboard-shift$$
   - Y
   - X
@@ -377,7 +377,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
 combos:
 - p: [31, 32]
   k: '&mkp LCLK'
