@@ -3,6 +3,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
 #define NUFU 1
@@ -159,10 +160,10 @@
 
         GAME {
             bindings = <
-&kp NUMBER_1  &kp TAB     &kp Q  &kp W     &kp E      &kp R     &kp Y   &kp U      &kp I      &kp O       &kp P          &trans
-&kp NUMBER_2  &kp LCTRL   &kp A  &kp S     &kp D      &kp F     &kp H   &kp J      &kp K      &kp L       &kp SEMICOLON  &kp ENTER
-&kp NUMBER_3  &kp LSHIFT  &kp Y  &kp X     &kp C      &kp V     &kp N   &kp M      &kp COMMA  &kp PERIOD  &kp SLASH      &kp RSHIFT
-                                 &kp LALT  &kp SPACE  &trans    &trans  &kp SPACE
+&kp ESCAPE    &kp TAB     &kp Q  &kp W     &kp E      &kp R     &kp Y   &kp U      &kp I      &kp O       &kp P          &trans
+&kp NUMBER_1  &kp LCTRL   &kp A  &kp S     &kp D      &kp F     &kp H   &kp J      &kp K      &kp L       &kp SEMICOLON  &kp ENTER
+&kp NUMBER_2  &kp LSHIFT  &kp Y  &kp X     &kp C      &kp V     &kp N   &kp M      &kp COMMA  &kp PERIOD  &kp SLASH      &kp RSHIFT
+                                 &kp LALT  &kp SPACE  &trans    &trans  &kp ENTER
             >;
         };
     };
